@@ -1,0 +1,269 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+    position: relative;
+}
+
+/***** General styles *****/
+hr {
+    padding: 15px;
+    border: 0;
+    border-bottom: 3px solid #1b5982;
+    width: 20%;
+}
+
+.scroll-down-dark {
+    background: url(../img/arrow-down.png) no-repeat;
+    position: absolute;
+    /*top: 0;*/
+    bottom: 0;
+    right: 50px;
+    height: 37px;
+    width: 37px;
+    cursor: pointer;
+}
+
+.social-container {
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+}
+
+.social-fb-dark {
+    background: url(../img/fb-dark.png) no-repeat;
+    height: 16px;
+    width: 20px;
+    padding: 15px;
+}
+
+.social-twitter-dark {
+    background: url(../img/twitter-dark.png) no-repeat;
+    height: 16px;
+    width: 20px;
+    padding: 15px;
+}
+
+.social-linkedin-dark {
+    background: url(../img/linkedin-dark.png) no-repeat;
+    height: 16px;
+    width: 20px;
+    padding: 15px;
+}
+
+.social-ig-dark {
+    background: url(../img/ig-dark.png) no-repeat;
+    height: 16px;
+    width: 20px;
+    padding: 15px;
+}
+
+/***** Top content *****/
+.home {
+    background: url(../img/manila-phils.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    position: relative;
+}
+
+.home .content-bg {
+    background: url(../img/top-content-bg.png) no-repeat;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    height: 835px;
+    width: 474px;
+}
+
+.main-container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/***** Navigation *****/
+.navbar {
+    -o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
+    backface-visibility: hidden;
+}
+
+#navBarNav .nav-item {
+    margin: 15px;
+}
+
+#navBarNav .nav-item a {
+    background: url(../img/menu-arrow.png) left center no-repeat;
+    padding-left: 15px; 
+    color: #7e93a7;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.navbar-brand {
+    background: url(../img/logo.png) no-repeat;
+    background-position: 50% 90%;
+    background-size: 70px 60px;
+    position: absolute;
+    top: 0;
+    width: 110px;
+    height: 120px;
+    border: 0;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+
+.nav-search  {
+    position: relative;
+}
+
+.nav-search .search-field {
+    font-size: 10pt;
+    color: #7e93a7;
+    border-color: #7e93a7;
+    background-color:rgba(0, 0, 0, 0);
+    outline:none;
+    height: 30px;
+    transition:height 1s;
+    -webkit-transition:height 1s;
+    border-radius: none !important;
+}
+
+.nav-search .search-icon {
+    background: url('../img/search.png') no-repeat;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 16px;
+    height: 16px;
+    color: #7e93a7;
+}
+
+#navBarHome {
+    position: absolute;
+    top: 35px;
+    bottom: 0;
+    margin: auto;
+    padding-left: 8%;
+    width: 100%;
+    z-index: 1;
+}
+
+#navBarHome ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+#navBarHome ul li {
+  padding: .5em 0;
+  margin: 2em;
+  border-bottom: 2px solid #29ade0;
+}
+
+#navBarHome .nav-item a {
+    color: #3d6d8d;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+/***** Company *****/
+.company-container {
+    position: relative;
+    margin-top: 10%;
+}
+
+.company-container h1 {
+    font-size: 3.5em;
+    color: #1b5982;
+    word-wrap: break-word;
+    letter-spacing: 3px;
+}
+
+.company-container p {
+    font-size: 12pt;
+    color: #000;
+}
+
+.video-section {
+    margin-top: 3%;
+}
+
+.play-video {
+    margin: auto;
+    border: 1px solid #29ade0;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: #29ade0;
+    box-shadow: 0px 3px #555353;
+    margin-bottom: 1%;
+}
+
+.play-video .arrow-play {
+  width: 0; 
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 25px solid #fff;
+  margin: 20px auto;
+}
+
+.scroll-section {
+    margin-top: 7%;
+}
+
+.scroll-img {
+    background: url(../img/mouse-icon.png) no-repeat;
+    height: 46px;
+    width: 31px;
+    margin: 15px auto;
+}
+
+/***** What We Do *****/
+
+
+/***** Footer *****/
+footer {
+    padding: 40px 0 0 0;
+    background: #444;
+    color: #aaa;
+    text-align: left;
+}
+
+footer .main-container {
+    padding-bottom: 3%;
+}
+
+.footer-logo {
+    background: url(../img/icf-logo-white.png) no-repeat;
+    height: 70px;
+    width: 85px;
+}
+
+.footer-menu ul {
+    list-style-type: none;
+}
+
+.footer-menu ul li {
+    margin: 2px;
+    color: #fff;
+}
+
+.footer-menu ul li a {
+    color: #fff;
+}
+
+.email {
+    background: url(../img/email.png) no-repeat;
+    padding-left: 10%;
+}
+
+.email span {
+    vertical-align: middle;
+}
